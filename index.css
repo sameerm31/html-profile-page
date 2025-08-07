@@ -1,0 +1,136 @@
+/* Navbar Container */
+.hdr {
+  background-color: #333;
+  padding: 10px 30px;
+  height: 49px;
+  padding-bottom: 8px;
+  border-top-left-radius:6px;
+  border-top-right-radius: 6px;
+  margin-bottom: 1px;
+}
+
+/* Header Section */
+.hdrn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.hdrn .bi-person-fill {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 9px;
+}
+
+/* Navigation Links Section */
+.hdrr {
+  display: flex;
+  gap: 20px;
+}
+
+/* Style for each individual link */
+.hdrr div {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 5px;
+}
+
+
+/* section */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ 
+
+
+.container {
+  display: flex;
+  width: cover;
+  height: 700px;
+  
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.left-panel {
+  flex: 1;
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20%;
+  margin-bottom: 20px;
+}
+
+.left-panel h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.left-panel h1 span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.title {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px 20px 5px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.social-icons a {
+  color: #333;
+  margin: 0 8px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.right-panel {
+  flex: 2;
+  background-color: #999;
+  color: white;
+  padding: 40px;
+}
+
+.right-panel h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.right-panel p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.buttons .btn {
+  margin-right: 10px;
+}
+
